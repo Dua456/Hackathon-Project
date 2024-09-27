@@ -1,0 +1,124 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f5;
+    margin: 0;
+    padding: 50px;
+}
+
+/* Centered and Attractive h1 Styling */
+h1 {
+    font-size: 32px;
+    color: #e63946; /* Attractive red color */
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 15px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 80%; /* Adjust width to center */
+    margin-left: auto; /* Center align */
+    margin-right: auto; /* Center align */
+}
+
+/* Resume Container */
+.resume-container {
+    display: flex;
+    background-color: #ffffff;
+    justify-content: space-between;
+    width: 85%;
+    padding: 30px;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    gap: 20px;
+}
+
+/* Left Section */
+.left-section {
+    background-color: #333;
+    color: #ffffff;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.profile-picture {
+    width: 220px;
+    height: 320px;
+    border-radius: 50%;
+    border: 4px solid #e63946;
+    margin: 0 auto 20px auto;
+    display: block;
+}
+
+/* Consistent h3 Styling */
+h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    position: relative;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #6cc4a1;
+    color: white; 
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+.left-section h3::before, .right-section h3::before {
+    background-color: #e63946; 
+}
+/* Right Section */
+.right-section {
+    width: 70%;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: #fafafa;
+    box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.05);
+}
+
+.right-section p, .right-section ul {
+    font-size: 16px;
+    color: #555;
+}
+
+.right-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.right-section ul li {
+    margin-bottom: 10px;
+}
+
+/* Button Styling */
+button {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #e63946;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 20px auto 0;
+}
+
+button:hover {
+    background-color: #d62828;
+}
+
+
+
